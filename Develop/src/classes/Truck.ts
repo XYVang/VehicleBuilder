@@ -29,8 +29,8 @@ class Truck extends Vehicle {
     year: number,
     weight: number,
     topSpeed: number,
+    towingCapacity: number,
     wheels: Wheel[],
-    towingCapacity: number
   )
 
     // TODO: The constructor should call the constructor of the parent class, Vehicle
